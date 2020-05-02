@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "webpack --mode development",
+        "start": "webpack --mode development",
         "build": "webpack-dev-server --mode development --open",
-        "start": "node app.js",
+        "dev": "node app.js",
         "prod": "nodemon app.js"
     },
     "author": "Siddhant Arekar",
